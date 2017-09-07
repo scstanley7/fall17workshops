@@ -1,3 +1,3 @@
-# Hello World!
+# About this repository
 
-Hi! I'm Sarah and I'm the Digital Humanities Librarian at FSU :) 
+This repo contains all the code, slides, and other files for the Digital Res Skills Workshops in Fall 2017.
