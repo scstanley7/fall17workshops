@@ -23,24 +23,34 @@ play around with this for a bit. What does `list(range(1,10,2))` do?
   
 **Remember: the straight single quote is often used to designate that something is a string. If you are going to use the single quote method, you need to escape the apostrophe in "I'm":**
 
-`for course in courses:
-  print('I\'m taking ' + course + ' this semester')`
+```
+for course in courses:
+  print('I\'m taking ' + course + ' this semester')
+```
   
 2. 
-`courses = {"Biology": "Monday", "Shakespeare": "Tuesday", "Symbolic Logic": "Wednesday", "Chaucer": "Thursday", "Astronomy": "Friday"}`
+```
+courses = {"Biology": "Monday", "Shakespeare": "Tuesday", "Symbolic Logic": "Wednesday", "Chaucer": "Thursday", "Astronomy": "Friday"}
+```
 
-`for course, day in courses.items():
-  print(course + " meets on " + day)`
+```
+for course, day in courses.items():
+  print(course + " meets on " + day)
+```
   
 4. 
-`for i in range(1, 11):
-  print("I'm at number" + str(i))`
+```
+for i in range(1, 11):
+  print("I'm at number" + str(i))
+```
   
 5. 
-`for i in range(1, 26):
+```
+for i in range(1, 26):
   if i < 15:
     print(str(i) + " is less than 15")
   elif i == 15:
     print(str(i) + " is equal to 15")
   else:
-    print(str(i) " is greater than 15")`
+    print(str(i) " is greater than 15")
+```

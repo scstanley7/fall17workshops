@@ -23,9 +23,13 @@ Go to http://dhbox.org and set up an account for the amount of time you think yo
 ### Creating Variables
 
 `my_variable = “test”`
+
 `my-variable = “Another test”`
+
 `variable1 = 17`
+
 `1stvariable = “Hello World!”`
+
 `variable2 = hello world`
 
 ### Lists and Dictionaries
@@ -33,7 +37,9 @@ Go to http://dhbox.org and set up an account for the amount of time you think yo
 #### Lists:
 
 `["every", "object", "is", "separated", "by”, "a", "comma"]`
+
 `lost = [4, 8, 15, 16, 23, 42]`
+
 `hitchhiker = ["the", "answer", "to", "life", "the", "universe", "and", "everything", "is", 42]`
 
 Appending to lists:
@@ -43,11 +49,14 @@ Appending to lists:
 Getting information about list items:
 
 `list_variable[1]`
+
 `type(list_variable[1])`
 
 #### Dictionaries:
 
-`wizard_info = {"name": "Harry Potter", "education": "Hogwarts", "address": "Cupboard Under the Stairs, 4 Privet Drive, Little Whinging, Surrey"}`
+```
+wizard_info = {"name": "Harry Potter", "education": "Hogwarts", "address": "Cupboard Under the Stairs, 4 Privet Drive, Little Whinging, Surrey"}
+```
 
 What happens if we try to get the third key:value pair from the dictionary?
 
@@ -61,36 +70,47 @@ Appending to dictionaries:
 
 ### for loops
 
-`drs_team = ["Micah", "Devin", "Matt", "Rachel", "Sarah"]
+```
+drs_team = ["Micah", "Devin", "Matt", "Rachel", "Sarah"]
 for team_member in drs_team:
-	print(team_member)`
+	print(team_member)
+```
 
-`for team_member in drs_team:
+```
+for team_member in drs_team:
   print(team_member + " is a pretty cool person.")
-`
+```
 
-`hurricanes = {"Arlene": "Tropical Storm", "Bret": "Tropical Storm", "Cindy": "Tropical Storm", "Don": "Tropical Storm", "Emily": "Tropical Storm", "Franklin": "Category 1", "Gert": "Category 2", "Harvey": "Category 4", "Irma": "Category 5", "Jose": "Category 1", "Katia": "Category 2", "Lee": "Tropical Storm", "Maria": "Category 5"}`
+```
+hurricanes = {"Arlene": "Tropical Storm", "Bret": "Tropical Storm", "Cindy": "Tropical Storm", "Don": "Tropical Storm", "Emily": "Tropical Storm", "Franklin": "Category 1", "Gert": "Category 2", "Harvey": "Category 4", "Irma": "Category 5", "Jose": "Category 1", "Katia": "Category 2", "Lee": "Tropical Storm", "Maria": "Category 5"}
+```
 
-`for name, strength in hurricanes.items():`
-  `print(name + " is a " + strength)`
+```
+for name, strength in hurricanes.items():
+  print(name + " is a " + strength)
+```
   
 ### if, elif
 
 `drs_team = ["Micah", "Devin", "Matt", "Rachel", "Sarah"]`
 
-`if drs_team[0] == "Micah":
+```
+if drs_team[0] == "Micah":
     print(drs_team[0] + " is the director.")
 elif drs_team[0] == "Sarah":
     print(drs_team[0] + " is leading this workshop.")
 else:
-    print(drs_team[0] + " is a really good colleague.")`
+    print(drs_team[0] + " is a really good colleague.")
+```
 
 Combining for loops with if/else statements:    
 
-`for team_member in drs_team:
+```
+for team_member in drs_team:
     if team_member == "Micah":
         print(team_member + " is the director.")
     elif team_member == "Sarah":
         print(team_member + " is leading this workshop.")
     else:
-        print(team_member + " is a really good colleague.")`
+        print(team_member + " is a really good colleague.")
+```
