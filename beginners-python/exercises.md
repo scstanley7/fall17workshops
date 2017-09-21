@@ -52,5 +52,5 @@ for i in range(1, 26):
   elif i == 15:
     print(str(i) + " is equal to 15")
   else:
-    print(str(i) " is greater than 15")
+    print(str(i) + " is greater than 15")
 ```
