@@ -17,7 +17,7 @@ Digital Humanities Librarian<br/>
 
 It's important to check the terms of service for the site you want to scrape from!!
 
-* Lot's of requests to the site can make it run slower for everyone else
+* Lots of requests to the site can make it run slower for everyone else
   * See the Project Gutenberg [terms of service](https://www.gutenberg.org/wiki/Gutenberg:Terms_of_Use#Audience) for an example
 * Some people have restrictive data policies
 
@@ -63,8 +63,8 @@ In CSS, you select:
 ## Answers
 
 1. `h3`
-2. .four-column-table a
-3. footer#section-footer p
+2. `.four-column-table a`
+3. `footer#section-footer p`
 
 ## Getting set up
 
