@@ -16,10 +16,10 @@ Since we don't want to overwhelm the OTA with http requests during the workshop,
 And these are the links for the html files that we will be scraping from today:
 
 <ul id="ws-links">
-<li><a href="https://github.com/scstanley7/fall17workshops/blob/master/python-webscraping/html/A05232.html">A05232.html</a></li>
-<li><a href="https://github.com/scstanley7/fall17workshops/blob/master/python-webscraping/html/A18343.html">A18343.html</a></li>
-<li><a href="https://github.com/scstanley7/fall17workshops/blob/master/python-webscraping/html/A20416.html">A20416.html</a></li>
-<li><a href="https://github.com/scstanley7/fall17workshops/blob/master/python-webscraping/html/A07095.html">A07095.html</a></li>
-<li><a href="https://github.com/scstanley7/fall17workshops/blob/master/python-webscraping/html/A14476.html">A14476.html</a></li>
-<li><a href="https://github.com/scstanley7/fall17workshops/blob/master/python-webscraping/html/A11161.html">A11161.html</a></li>
+<li><a href="https://raw.githubusercontent.com/scstanley7/fall17workshops/master/python-webscraping/html/A05232.html.html">A05232.html</a></li>
+<li><a href="https://raw.githubusercontent.com/scstanley7/fall17workshops/master/python-webscraping/html/A18343.html.html">A18343.html</a></li>
+<li><a href="https://raw.githubusercontent.com/scstanley7/fall17workshops/master/python-webscraping/html/A20416.html.html">A20416.html</a></li>
+<li><a href="https://raw.githubusercontent.com/scstanley7/fall17workshops/master/python-webscraping/html/A07095.html.html">A07095.html</a></li>
+<li><a href="https://raw.githubusercontent.com/scstanley7/fall17workshops/master/python-webscraping/html/A14476.html.html">A14476.html</a></li>
+<li><a href="https://raw.githubusercontent.com/scstanley7/fall17workshops/master/python-webscraping/html/A11161.html.html">A11161.html</a></li>
 </ul>
