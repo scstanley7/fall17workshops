@@ -18,8 +18,10 @@ play around with this for a bit. What does `list(range(1,10,2))` do?
 1. 
 `courses = ["Biology", "Shakespeare", "Symbolic Logic", "Chaucer", "Astronomy"]`
 
-`for course in courses:`
-  `print("I'm taking " + course + " this semester")`
+```
+for course in courses:
+  print("I'm taking " + course + " this semester")
+```
   
 **Remember: the straight single quote is often used to designate that something is a string. If you are going to use the single quote method, you need to escape the apostrophe in "I'm":**
 
