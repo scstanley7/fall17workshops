@@ -2,4 +2,4 @@
 
 This repo contains all the code, slides, and other files for the Digital Res Skills Workshops in Fall 2017.
 
-Test change for workshop.
+Test change for Molly.
